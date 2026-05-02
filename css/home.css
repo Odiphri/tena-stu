@@ -10,13 +10,49 @@ body {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #a01010;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 7vh;
 }
 
 ul {
     display: flex;
     align-self: center;
     justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 2px;
+    margin-left: 0.5rem;
+}
+
+.profile-button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.logout-button {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 9px;
+    margin-right: 35px;
 }
